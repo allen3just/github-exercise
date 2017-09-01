@@ -12,7 +12,7 @@ If you have any questions, contact [amclees](https://github.com/amclees), look i
 
 #### Making the Changes
 
-If you don't know Ruby, free to add a comment somewhere.
+If you don't know Ruby, feel free to add a comment somewhere.
 Otherwise, try to lower the byte count.
 
 Installation instructions for Ruby can be found [here](https://www.ruby-lang.org/en/documentation/installation/).
