@@ -17,8 +17,9 @@ puts shift('abc', 13)
 puts shift('5f6', 16)
 
 # Golfed
-s = ->n,b{n.chars.map{|c|(c.to_i(b)+1).to_s(b)[-1]}.join}
+s = ->n,b{b<2?n:n.chars.map{|c|(c.to_i(b)+1).to_s(b)[-1]}.join}
 
 puts 'Golfed'
 puts s.call('abc', 13)
 puts s.call('5f6', 16)
+puts s.call('0000', 1)
