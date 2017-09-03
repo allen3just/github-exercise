@@ -23,3 +23,4 @@ puts 'Golfed'
 puts s.call('abc', 13)
 puts s.call('5f6', 16)
 puts s.call('0000', 1)
+puts 'Hello World'
